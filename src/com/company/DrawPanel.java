@@ -12,7 +12,7 @@ public class DrawPanel extends JPanel {
         drawLandscape(gr);
         for (int i = 0; i < 2; i++) {
             for (int j=0; j<4; j++){
-                drawStar(gr, 10 + 150*j + 100*i, 70 + 70*i);
+                drawStar(gr, 10 + 150*j + 100*i, 60 + 70*i);
             drawTree(gr, 50 + 240 *j + 50*i, 300 + 100 * i, 150, "round");
             drawTree(gr, 170 + 240 * j + 50*i, 300 + 100 * i, 150, "triangle");
             }
